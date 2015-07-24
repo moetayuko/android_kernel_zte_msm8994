@@ -1,0 +1,1 @@
+#define UTS_RELEASE "3.10.49-g7201d05-00008-gc66a7f6"
