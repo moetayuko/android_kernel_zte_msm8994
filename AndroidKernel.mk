@@ -26,18 +26,9 @@ else
 TARGET_PREBUILT_INT_KERNEL := $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/zImage
 endif
 
-KERNEL_USE_OF ?= $(shell $(PERL) -e '$$of = "n"; while (<>) { if (/CONFIG_USE_OF=y/) { $$of = "y"; break; } } print $$of;' $(LOCAL_PRIVATE_PATH)/user/.config)
-
-ifeq "$(KERNEL_USE_OF)" "y"
-
 define append-dtb
 cp $(LOCAL_PRIVATE_PATH)/dt.img $(OUT)/dt.img
 endef
-else
-
-define append-dtb
-endef
-endif
 
 TARGET_PREBUILT_KERNEL := $(TARGET_PREBUILT_INT_KERNEL)
 
