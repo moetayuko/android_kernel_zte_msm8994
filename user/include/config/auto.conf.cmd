@@ -147,12 +147,10 @@ deps_config := \
 	drivers/clk/qcom/Kconfig \
 	drivers/clk/mvebu/Kconfig \
 	drivers/clk/Kconfig \
-	drivers/platform/zte/Kconfig \
 	drivers/platform/msm/Kconfig \
 	drivers/platform/goldfish/Kconfig \
 	drivers/platform/x86/Kconfig \
 	drivers/platform/Kconfig \
-	drivers/staging/qcacld-2.0/Kconfig \
 	drivers/staging/dwc2/Kconfig \
 	drivers/staging/netlogic/Kconfig \
 	drivers/staging/goldfish/Kconfig \
@@ -361,7 +359,6 @@ deps_config := \
 	drivers/video/omap2/dss/Kconfig \
 	drivers/video/omap2/Kconfig \
 	drivers/video/omap/Kconfig \
-	drivers/video/msm/mdss/Sii8620_103/Kconfig \
 	drivers/video/msm/mdss/Kconfig \
 	drivers/video/msm/vidc/Kconfig \
 	drivers/video/msm/Kconfig \
@@ -527,9 +524,7 @@ deps_config := \
 	drivers/input/serio/Kconfig \
 	drivers/input/misc/Kconfig \
 	drivers/input/touchscreen/gt9xx/Kconfig \
-	drivers/input/touchscreen/cyttsp5/Kconfig \
-	drivers/input/touchscreen/gt1x/Kconfig \
-	drivers/input/touchscreen/atmel/Kconfig \
+	drivers/input/touchscreen/synaptics_dsx/Kconfig \
 	drivers/input/touchscreen/Kconfig \
 	drivers/input/tablet/Kconfig \
 	drivers/input/joystick/iforce/Kconfig \

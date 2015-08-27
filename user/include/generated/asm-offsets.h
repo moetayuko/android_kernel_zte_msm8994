@@ -16,7 +16,7 @@
 #define TI_EXEC_DOMAIN 24 /* offsetof(struct thread_info, exec_domain)	// */
 #define TI_CPU 84 /* offsetof(struct thread_info, cpu)	// */
 
-#define THREAD_CPU_CONTEXT 1264 /* offsetof(struct task_struct, thread.cpu_context)	// */
+#define THREAD_CPU_CONTEXT 1280 /* offsetof(struct task_struct, thread.cpu_context)	// */
 
 #define S_X0 0 /* offsetof(struct pt_regs, regs[0])	// */
 #define S_X1 8 /* offsetof(struct pt_regs, regs[1])	// */
@@ -35,7 +35,7 @@
 #define S_SYSCALLNO 280 /* offsetof(struct pt_regs, syscallno)	// */
 #define S_FRAME_SIZE 288 /* sizeof(struct pt_regs)	// */
 
-#define MM_CONTEXT_ID 680 /* offsetof(struct mm_struct, context.id)	// */
+#define MM_CONTEXT_ID 720 /* offsetof(struct mm_struct, context.id)	// */
 
 #define VMA_VM_MM 64 /* offsetof(struct vm_area_struct, vm_mm)	// */
 #define VMA_VM_FLAGS 80 /* offsetof(struct vm_area_struct, vm_flags)	// */
