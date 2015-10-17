@@ -1,1 +1,1 @@
-#define UTS_RELEASE "3.10.49-ga06cc44"
+#define UTS_RELEASE "3.10.49-perf-gadcdc18"
